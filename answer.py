@@ -25,7 +25,7 @@ def strings():
 
     # Repeat variable stevens 7 times and assign it to variable stevens_7.
 
-    stevens_7 ="stevens stevens stevens stevens stevens stevens stevens"
+    stevens_7 =stevens*7
 
     # What is the length of stevens_7?
 
@@ -65,11 +65,13 @@ def list_1D():
     # Inplace sort list l (use .sort() ).
     
     l.sort()
+    
+    
 
 
     # Get the 4th to 10th item in sorted list l and assign them to a new list new_l.
 
-    new_l = list[3:11]
+    new_l = list[3:10]
 
     return hoboken,hoboken_list, hoboken_first_item, l, new_l
 
